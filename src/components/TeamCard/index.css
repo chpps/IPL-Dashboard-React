@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.list-item-container {
+  display: flex;
+  text-align: center;
+}
+.team-image-url {
+  width: 120px;
+  height: 150px;
+  align-self: center;
+  margin-right: 16px;
+}
+.team-name {
+  color: white;
+  font-size: 34px;
+  font-family: 'Bree Serif';
+  align-self: center;
+}
+.item-link {
+  display: flex;
+  flex: 1 1 40%; /* Ensure each item takes up 45% of the container width */
+  border: 1px solid white;
+  background-color: rgba(133, 129, 129, 0.5); /* Adjust for transparency */
+  list-style-type: none;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 15px; /* Ensure padding and border are included in width */
+  max-width: 40%;
+}

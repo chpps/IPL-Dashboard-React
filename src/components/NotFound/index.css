@@ -1,0 +1,9 @@
+/* Write your CSS here */
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: 'Bree Serif';
+  color: white;
+}

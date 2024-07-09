@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.match-card-item {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e293b;
+  border-radius: 10px;
+  max-width: 30%;
+  margin: 10px;
+  padding: 12px;
+  font-size: 22px;
+  align-items: center;
+}
+.match-card-team-logo {
+  width: 150px;
+  height: 180px;
+}
+.matchCard-competingTeam {
+  font-size: 20px;
+  color: white;
+  font-family: 'Bree Serif';
+}
